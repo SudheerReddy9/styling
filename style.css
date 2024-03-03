@@ -1,8 +1,15 @@
 
-img#photo {
-    border: 2px solid blue;
+.main{
+  border: 2px solid blue;
+  filter: blur(12px);
+  -webkit-filter: blur(15px);
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(photo.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
-
 h1 {
     color: blue;
 }
